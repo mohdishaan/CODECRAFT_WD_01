@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js"></script>
+    <title>Responsive Landing page</title>
+</head>
+<body>
+    <div class="relative bg-[#0D0D1F]">
+    <nav id="mynavbar">
+    <div class="flex bg-indigo-300 justify-evenly space-x-6 w-full flex-container space-between font-bold h-20 text-xl items-center">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Features</div>
+        <div class="nav-item">Services</div>
+        <div>
+            <select name="options" class="bg-transparent text-black nav-item">
+                <option value="" disabled selected hidden>Contact</option>
+                <option value="1">First Contact</option>
+                <option value="2">Second Contact</option>
+                <option value="3">Third Contact</option>
+                <option value="4">Fourth Contact</option>
+            </select>
+        </div>
+    </div>
+    </nav>
+
+
+    <div class="text-white pt-10 pb-5">
+        <h1 class="text-3xl font-bold text-center pb-6"> Responsive Landing Page with Interactive Navigation Menu </h1>
+        <p class="text-white text-xl">
+            A responsive landing page is a modern, user-friendly web interface designed to provide an optimal viewing experience across various devices like desktops, tablets, and mobile phones. This kind of page automatically adjusts its layout, content, and navigation to suit the screen size of the user’s device. For this task, the primary focus is on creating a responsive landing page that includes a fixed, interactive, and stylish navigation menu. Let us understand the core components and their purpose in detail:
+
+        </p>
+        <br>
+        <h2 class="text-2xl font-bold">1. Objective of the Task</h2>
+        <p class="text-xl">
+            The main objective is to design a visually appealing and interactive landing page where the navigation bar is fixed at the top of the screen and remains visible even when the user scrolls down the page. This ensures better accessibility and usability, especially on long web pages. The navigation bar should respond to user interactions such as hovering over items or scrolling, and should also adapt to different screen sizes.
+
+        </p>
+        <br>
+        <h2 class="text-2xl font-bold">2. Navigation Menu: Structure and Behavior</h2>
+        <p class="text-xl">
+            A navigation menu typically contains a list of links like Home, About, Services, and Contact. These items allow users to navigate quickly between sections of the website. In this task, the navigation bar must include:
+
+        Horizontal layout for larger screens and vertical or hamburger menu for smaller screens.
+
+        Fixed positioning so that it sticks to the top of the page.
+
+        Dynamic background and font color changes on scrolling.
+
+        Smooth hover effects using CSS or Tailwind classes.
+
+        Using Tailwind CSS, the flexbox layout will help arrange the menu items evenly, and utility classes like fixed, top-0, w-full, and shadow-md will help maintain position and styling.
+
+        </p>
+        <br>
+        <h2 class="text-2xl font-bold">3. Responsive Design Principles</h2>
+        <p class="text-xl">
+            Responsiveness ensures that the page content looks good and functions well on all devices. Tailwind CSS provides a mobile-first approach using utility classes like:
+
+        sm:, md:, lg:, and xl: for screen-specific styles.
+
+        flex, grid, space-x-*, and space-y-* for layout adjustments.
+
+        hidden, block, or inline-block to show/hide elements on different devices.
+
+        The navigation menu, headings, text sections, and buttons should all resize or realign themselves based on the screen width.
+
+
+        </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+    </div>
+</body>
+</html> 
